@@ -8,7 +8,7 @@ img {
 
 body {
 	margin: 0;
-	background-color: #FFF;
+	background-color: #618126;
 }
 
 div {
@@ -31,6 +31,7 @@ HEADER
 header {
 	background-color: #462681;
 	padding-bottom: 0.25px;
+	box-shadow: inset 0 -3px 15px black;
 }
 
 header h1 {
@@ -39,9 +40,15 @@ header h1 {
 	text-align: center;
 }
 
+nav {
+	text-align: center;
+	max-width: 100%;
+	margin: auto;
+	border-bottom: 3px solid black;
+}
+
 nav ul {
-	margin-top: 30px;
-	margin-bottom: 6px;
+	margin: 30px 0;
 	padding: 0;
 }
 
@@ -51,29 +58,26 @@ nav ul li {
 	font-size: 1.25em;
 }
 
-nav {
-	text-align: center;
-	max-width: 940px;
-	margin: auto;
-}
+
 
 .tabs {
-	background-color: #496612;
-	padding: 8px;
-	border-top-left-radius: 5px;
-}
-
-#current {
 	background-color: #618126;
+	padding: 8px;
+	border-bottom: 3px solid #000;
+	border-right: 3px solid #191919;
 }
 
-.otherTabs {
-	box-shadow: inset 0px -4px 10px #3A510E;
+.tabs:hover {
+	box-shadow: inset -3px -3px 6px #3A510E;
 }
 
-.otherTabs:hover {
-	box-shadow: inset 0px -6px 5px #3A510E;
+.tabs:active {
+	box-shadow: inset -3px -3px 6px #618126;
+	background-color: #3A510E;
+	color: #462681;
+	box-shadow: inset -2px -2px 6px #3A510E;
 }
+
 /******************************
 SECTION
 *******************************/
@@ -81,8 +85,7 @@ SECTION
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
-	padding: 0px 5%;
-	background-color: #618126;
+	padding: 10px 5%;
 }
 
 #left_section, #right_section {
@@ -102,6 +105,11 @@ img {
 	border: 3px solid black;
 	border-radius: 100%;
 	box-shadow: 5px 5px 20px black;
+}
+
+h2 {
+	padding: 0 0 5px 3px;
+	border-bottom: 2px dashed black;
 }
 
 /******************************
