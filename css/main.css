@@ -88,10 +88,7 @@ nav ul li {
 }
 
 .tabs:active {
-	box-shadow: inset -3px -3px 6px #618126;
-	background-color: #3A510E;
-	color: #462681;
-	box-shadow: inset -2px -2px 6px #3A510E;
+	/*color: #462681;*/
 }
 
 /******************************
