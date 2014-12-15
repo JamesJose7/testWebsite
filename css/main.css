@@ -31,6 +31,7 @@ HEADER
 header {
 	background-color: #265060;
 	padding-bottom: 0.25px;
+	box-shadow: inset 0 -3px 15px black;
 }
 
 header h1 {
@@ -40,6 +41,13 @@ header h1 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
 	color: #FFF;
+}
+
+nav {
+	text-align: center;
+	max-width: 100%;
+	margin: auto;
+	border-bottom: 3px solid black;
 }
 
 nav ul {
@@ -56,11 +64,7 @@ nav ul li {
 	color: #4c3830;
 }
 
-nav {
-	text-align: center;
-	max-width: 940px;
-	margin: auto;
-}
+
 
 .tabs {
 	background-color: #92a7af;
@@ -79,6 +83,19 @@ nav {
 .otherTabs:hover {
 	box-shadow: inset 0px -6px 15px #486672;
 }
+}
+
+.tabs:hover {
+	box-shadow: inset -3px -3px 6px #3A510E;
+}
+
+.tabs:active {
+	box-shadow: inset -3px -3px 6px #618126;
+	background-color: #3A510E;
+	color: #462681;
+	box-shadow: inset -2px -2px 6px #3A510E;
+}
+
 /******************************
 SECTION
 *******************************/
@@ -91,8 +108,8 @@ p {
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
-	padding: 0px 5%;
-	background-color: #bdcacf;
+	background-color: #bdcacf;	
+	padding: 10px 5%;
 }
 
 #left_section, #right_section {
@@ -113,6 +130,11 @@ img {
 	border: 3px solid black;
 	border-radius: 100%;
 	box-shadow: 5px 5px 20px black;
+}
+
+h2 {
+	padding: 0 0 5px 3px;
+	border-bottom: 2px dashed black;
 }
 
 /******************************
