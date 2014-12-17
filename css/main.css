@@ -131,6 +131,14 @@ h2 {
 	border-bottom: 1px dashed gray;
 }
 
+/******************************
+SISTEMASOP
+*******************************/
+
+#mapOs {
+	box-shadow: none;
+	border: none;
+}
 
 /******************************
 FOOTER
