@@ -81,10 +81,10 @@ nav ul li {
 .otherTabs:hover {
 	box-shadow: inset 0px -6px 15px #486672;
 }
-}
+
 
 .tabs:hover {
-	box-shadow: inset -3px -3px 6px #3A510E;
+	/*box-shadow: inset -3px -3px 6px #3A510E;*/
 }
 
 .tabs:active {
@@ -97,7 +97,6 @@ SECTION
 
 p {
 	font-family: 'Lato', sans-serif;
-	text-align: justify;
 }
 
 #wrapper {
@@ -122,8 +121,7 @@ img {
 	display: block;
 	max-width: 60%;
 	margin: 0 auto;
-	border: 3px solid black;
-	border-radius: 100%;
+	border: 1px solid black;
 	box-shadow: 5px 5px 20px black;
 }
 
@@ -132,13 +130,6 @@ h2 {
 	border-bottom: 2px dashed black;
 }
 
-/******************************
-PAGE: SISTEMAS OPERATIVOS
-*******************************/
-
-/******************************
-PAGE: APLICACIONES
-*******************************/
 
 /******************************
 FOOTER
@@ -152,6 +143,7 @@ FOOTER
 }
 
 footer {
+	margin: 20px 0 0 0;
 	display: block;
 	padding: 0 0 35px 0;
 }
